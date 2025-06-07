@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .div{
+    display: inline;
+    position: relative;
+    bottom: 30px;
+}
+a{
+    padding: 35px;
+    text-decoration: none;
+    position: relative;
+    left: 450px;
+}
+.navigation{
+    height:170px;
+    background-color: aqua;
+     position: sticky;
+    top: 0px;
+    z-index: 5;
+}
+.image1{
+    position: relative;
+    left: 60px;
+    top: 25px;
+}
+.form{
+    border: 2px solid black;
+    width: 450px;
+    
+}
+.form1{
+    border: 2px solid black;
+    width: 450px;   
+    
+}
+.div1{
+    padding: 20px;
+}
+.btn{
+    position: relative;
+    left: 150px;
+
+}
+.heading{
+    position: relative;
+    left: 30px;
+}
+.heading1{
+    position:relative;
+    left: 100px;
+}
+.p{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+}
+.image{
+    position: relative;
+    left: 100px;
+}
+    </style>
+</head>
+<body>
+    <nav class="navigation">
+        <img class="image1"src="logo.png" alt="" width="130px">
+        <div class="div"><a href="htc.html">HOME</a></div>
+        <div class="div"><a href="trecks.html">TREKS</a></div>
+        <div class="div"><a href="trips.html">TRIPS</a></div>
+        <div class="div"><a href="about.html">ABOUT</a></div>
+        <div class="div"><a href="gallery.html">GALLERY</a></div>
+        <div class="div"><a href="contact.html">CONTACT</a></div>
+        
+    </nav>
+    <br>
+    <div class="p" >
+    <div class="form">
+    <form action="">
+      <br>
+      <h1 class="heading1">OUR DETAILS</h1>
+      <img class="image" src="avatar.jpg">
+      
+      <ul>
+        <li><h2> Head:Rajkumar</h2></li>
+        <li>Location: Hyderabad, Telangana</li>
+        <br>
+        <li>Email: yourmail@example.com</li><br>
+        <li>Phone/WhatsApp: +91 8529631472</li><br>
+        <li>Instagram: @hyderabadtrekkingcamp</li><br>
+        <li>Facebook: fb.com/hyderabadtrekkingcamp</li><br>
+      </ul>
+        
+
+    </form>
+    </div>
+     <div class="form1">
+    <form action="">
+        <br>
+        <h1 class="heading">ENTER YOUR DETAILS</h1>
+        <br>
+        <div class="div1">  ENTER YOUR NAME : <input type="text" placeholder="Enter here"></div><br>
+        <div class="div1">DATE OF BIRTH : <input type="datetime-local"></div><br>
+        <div class="div1">UPLOAD PROOF : <input type="file"></div><br>
+        <div class="div1">GENDER : <input type="radio"  name="name">MALE 
+        <input type="radio"  name="name">FEMALE</div><BR>
+        <div class="div1">MOBILE NO : <input type="text" name="" id="" pattern="[0-9]{10}"></div><br>
+        <button class="btn">SUBMIT</button>
+        <br><br><br><br>
+        
+
+    </form>
+    </div>
+    </div>
+</body>
+</html>
