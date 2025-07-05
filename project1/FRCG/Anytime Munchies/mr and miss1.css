@@ -1,0 +1,300 @@
+nav{
+    background-color: #F5FFFA;
+    display: flex;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    height: 145px;
+    width: 100%;
+}
+.logo{
+    display: flex;
+    position: absolute;
+    width: 9%;
+
+    top: 2px;
+    left: 45px;
+}
+
+.nav-options-div{
+    display: flex;
+    flex-direction: row;
+    position:absolute;
+    justify-content: center;
+    left: 230px;
+    top:40px;
+    z-index: 10000;
+}
+
+.nav-options{
+    list-style-type: none;
+    display: flex;
+    color:black ;
+    padding: 50px;
+    font-size: 27px;
+}
+
+a{
+    text-decoration: none;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: brown;
+    cursor: pointer;
+}
+
+a:hover{
+    text-decoration: underline;
+    
+}
+
+.nav-options-fw{
+    display: flex;
+    flex-direction: row;
+    position:absolute;
+    justify-content: center;
+    left: 1220px;
+    top:58px;
+    
+}
+
+.nav-fw{
+    list-style: none;
+    display: flex;
+    padding: 30px;
+    color: brown;
+    font-size: 27px;
+    
+}
+
+.home-page-heading{
+    display: flex;
+    position: absolute;
+    flex-direction: row;
+    z-index: 100;
+    top: 360px;
+    left: 880px;
+    
+}
+
+.recepies-options{
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    list-style-type:none;
+    background-color:#F5FFFA;
+    top: 89px;
+    left: 60px;
+    padding: 20px;
+    display: none;
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.1);
+    z-index: 9999;
+}
+
+.recepies-types{
+    margin-top: 14px;
+    color: brown;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 550;
+    letter-spacing: 1px;
+    font-size: 24px;
+    
+}
+
+.recepies-parent:hover .recepies-options{
+    display:flex ;
+}
+
+.foodstyle-options{
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    list-style-type:none;
+    background-color:#F5FFFA;
+    top: 89px;
+    left: 270px;
+    padding: 20px;
+    display: none;
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.1);
+    z-index: 9999;
+}
+
+.foodstyle-types{
+    margin-top: 14px;
+    color: brown;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 550;
+    letter-spacing: 1px;
+    font-size: 24px;
+    
+}
+
+.foodstyle-parent:hover .foodstyle-options{
+    display:flex ;
+}
+
+.cuisine-options{
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    list-style-type:none;
+    background-color:#F5FFFA;
+    top: 89px;
+    left: 540px;
+    padding: 20px;
+    display: none;
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.1);
+    z-index: 9999;
+}
+
+.cuisine-types{
+    margin-top: 14px;
+    color: brown;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 550;
+    letter-spacing: 1px;
+    font-size: 24px;
+    
+}
+
+
+
+.cuisine-parent:hover .cuisine-options{
+    display:flex ;
+}
+
+
+.seasonal-options{
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    list-style-type:none;
+    background-color:#F5FFFA;
+    top: 89px;
+    left: 740px;
+    padding: 20px;
+    display: none;
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.1);
+    z-index: 9999;
+}
+
+.seasonal-types{
+    margin-top: 14px;
+    color: brown;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 550;
+    letter-spacing: 1px;
+    font-size: 24px;
+    
+}
+
+
+
+.seasonal-parent:hover .seasonal-options{
+    display:flex ;
+}
+
+.meaty-meal-list{
+    list-style-type: none;
+    margin-left: 140px;
+}
+
+.meaty-meal-caption{
+    display: flex;
+    flex-direction: row;
+    left: 140px;
+    background: linear-gradient(to bottom, black 0%, #FCEDCE  100%);
+}
+.meaty-meals-list{
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    
+}
+
+.meaty-meals{
+    margin-top: 180px;
+    
+}
+
+.meaty-meals-parent{
+    display: flex;
+    position: absolute;
+    left: 460px;
+    top: 290px;
+}
+.chicken-curry-rec{
+    display: flex;
+    margin-top: -10px
+}
+
+.chicken-curry{
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    background-color: white;
+    border-bottom: 5px solid brown;
+    border-radius: 4px;
+    list-style-type: none;
+    padding: 15px;
+    width: 40%;
+    z-index: 100;
+    top: 675px;
+    left:70px ;
+}
+
+.creamy-butter-chicken{
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    background-color: white;
+    border-bottom: 5px solid brown;
+    border-radius: 4px;
+    list-style-type: none;
+    padding: 15px;
+    width: 40%;
+    z-index: 1000;
+    top: 1350px;
+    left:70px ;
+}
+
+.spicy-goan-pork{
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    background-color: white;
+    border-bottom: 5px solid brown;
+    border-radius: 4px;
+    list-style-type: none;
+    padding: 15px;
+    width: 40%;
+    z-index: 10000;
+    top: 2050px;
+    left:70px ;
+}
+
+.grilled-lamb-kebabs{
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    background-color: white;
+    border-bottom: 5px solid brown;
+    border-radius: 4px;
+    list-style-type: none;
+    padding: 15px;
+    width: 40%;
+    z-index: 10000;
+    top: 2750px;
+    left:70px ;
+}
+
+.kashmir-mutton-rogan{
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    background-color: white;
+    border-bottom: 5px solid brown;
+    border-radius: 4px;
+    list-style-type: none;
+    padding: 15px;
+    width: 40%;
+    z-index: 100000;
+    top: 3450px;
+    left:70px ;
+}

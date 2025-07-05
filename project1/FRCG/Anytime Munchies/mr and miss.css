@@ -1,0 +1,70 @@
+nav{
+    background-color: #F5FFFA;
+    display: flex;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    height: 145px;
+    width: 100%;
+}
+.logo{
+    display: flex;
+    position: absolute;
+    width: 9%;
+    top: 2px;
+    left: 45px;
+}
+
+.nav-options-div{
+    display: flex;
+    flex-direction: row;
+    position:absolute;
+    justify-content: center;
+    left: 230px;
+    top:40px;
+    z-index: 10000;
+}
+
+.nav-options{
+    list-style-type: none;
+    display: flex;
+    color:black ;
+    padding: 50px;
+    font-size: 27px;
+}
+
+a{
+    text-decoration: none;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: brown;
+}
+
+a:hover{
+    text-decoration: underline;
+    
+}
+
+.nav-options-fw{
+    display: flex;
+    flex-direction: row;
+    position:absolute;
+    justify-content: center;
+    left: 1220px;
+    top:58px;
+}
+
+.nav-fw{
+    list-style: none;
+    display: flex;
+    padding: 30px;
+    color: brown;
+    font-size: 27px;
+}
+
+.home-page-heading{
+    display: flex;
+    position: absolute;
+    flex-direction: row;
+    z-index: 100;
+    top: 360px;
+    left: 880px;
+    
+}

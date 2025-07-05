@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <style>
+    
+  .ingmak{
+    background-color: yellow;
+    border: 1px solid blue;
+    display: none;
+     width: 500px;
+  }
+   .ingmak1{
+    background-color: yellow;
+    border: 1px solid blue;
+    display: none;
+    width: 500px;
+  }
+  .mainhead{
+  display: flex;
+  justify-content: center;
+}
+.head{
+  display: flex;
+  justify-content: center;
+}
+.head{
+  display: flex;
+  justify-content: center;
+}
+body{
+  background-color:  #fff8e1;
+}
+.imgbox:hover .ingmak{
+  display: block;
+}
+.imgbox1:hover .ingmak1{
+  display: block;
+}
+.row1{
+  display: flex;
+  justify-content: space-around;
+  padding: 25px;
+}
+.img1 , .img2 , .img3, .img4 {
+  width: 500px;
+  height: 370px;
+  border: 3px solid black;
+    border-radius: 15px;
+}
+ .nav-image{
+            display: flex;
+            position: relative;
+            z-index: 1000000;
+            width: 60%;
+            top: -200px;
+            left:730px ;
+            opacity: 90%;
+            
+        }
+        body{
+            overflow-x: hidden;
+            margin:0px;
+            padding:0px;
+        }
+nav{
+  position: sticky;
+  top: 0px;
+}
+nav{
+    background-color: #F5FFFA;
+    display: flex;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    height: 145px;
+    width: 100%;
+}
+.logo{
+    display: flex;
+    position: absolute;
+    width: 9%;
+    top: 2px;
+    left: 45px;
+}
+
+.nav-options-div{
+    display: flex;
+    flex-direction: row;
+    position:absolute;
+    justify-content: center;
+    left: 230px;
+    top:40px;
+    z-index: 10000;
+}
+
+.nav-options{
+    list-style-type: none;
+    display: flex;
+    color:black ;
+    padding: 50px;
+    font-size: 27px;
+}
+
+a{
+    text-decoration: none;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: brown;
+}
+
+a:hover{
+    text-decoration: underline;
+    
+}
+
+.nav-options-fw{
+    display: flex;
+    flex-direction: row;
+    position:absolute;
+    justify-content: center;
+    left: 1220px;
+    top:58px;
+}
+
+.nav-fw{
+    list-style: none;
+    display: flex;
+    padding: 30px;
+    color: brown;
+    font-size: 27px;
+}
+
+.home-page-heading{
+    display: flex;
+    position: absolute;
+    flex-direction: row;
+    z-index: 100;
+    top: 360px;
+    left: 880px;
+    
+}
+  </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+    <nav>
+        <a href="" target="_self"><img class="logo" style="cursor: pointer;" src="logo.jpg"></a>
+        <div class="nav-container">
+            <ul class="nav-options-div">
+                <li class="nav-options"><a href="">RECIPIES <i class="fa-solid fa-bowl-food"></i></a></li>
+                <li class="nav-options"><a href="">FOOD STYLES <i class="fa-solid fa-utensils"></i> </a></li>
+                <li class="nav-options"><a href="">CUISINE <i class="fa-solid fa-globe"></i> </a></li>
+                <li class="nav-options"><a href="">SEASONAL <i class="fa-solid fa-leaf"></i></a></li>
+            </ul>
+            <img class="nav-image" src="logo3.png">
+        </div>
+        
+        <div class="nav-container-2">
+            <ul class="nav-options-fw">
+                <li class="nav-fw"><a href=""><i class="fa-solid fa-magnifying-glass"></i></a></li>
+                <li class="nav-fw"><a href=""><i class="fa-solid fa-bookmark"></i> </a></li>   
+                <li class="nav-fw"><a href=""><i class="fa-solid fa-user"></i></a></li>
+            </ul>
+        </div>
+    </nav>  
+  <div class="top">
+  <h1 class="mainhead">Dinner Delights (Dinner)</h1>
+  <h2 class="head">Simple, comforting meals to end the day</h2>
+</div>
+  <hr>
+  <div class="row1">
+  
+       <div class="imgbox">
+        <img class="img1" src="rajmachawal.jpg">
+        <h2>Rajma Chawal</h2>
+         <div class="ingmak">
+        <div class="ingbox">
+        <ul class="inglist">
+          <h2>Ingredients :</h2>
+        <li>1/2 cup rajma (kidney beans), soaked overnight</li>
+        <li>1 cup cooked rice</li>
+        <li>1 small onion, finely chopped</li>
+        <li>1 small tomato, pureed</li>
+        <li>1 tsp ginger-garlic paste</li>
+        <li>1 tbsp oil</li>
+        <li>1/2 tsp cumin seeds</li>
+        <li>1/2 tsp red chili powder</li>
+        <li>1/2 tsp garam masala</li>
+        <li>Salt to taste</li>
+        <li>Fresh coriander for garnish</li>
+        </ul>
+       </div>
+       <hr>
+       <div class="makbox">
+        <ol>
+          <h2 class="name">Making Process :</h2>
+          <li>Pressure cook soaked rajma with water until soft (about 4-5 whistles).</li>
+          <li>Heat oil, add cumin seeds, onions; sauté till golden. Add ginger-garlic paste and tomato puree. Cook till oil separates.</li>
+          <li>Add chili powder, garam masala, salt, and cooked rajma with some water. Simmer for 15 minutes.</li>
+          <li>Serve hot with cooked rice, garnished with coriander.</li>
+        </ol>
+        </ol>
+      
+        </div>
+   </div>   
+  </div>
+ 
+    <div class="container1">  
+       <div class="imgbox1">
+        <img class="img2" src="vegrice.jpg">
+        <h2>Vegetable Fried Rice</h2>
+         <div class="ingmak1">
+        <div class="ingbox">
+        <ul class="inglist">
+          <h2>Ingredients :</h2>
+        <li>1 cup cooked rice (preferably cold)</li>
+        <li>1/4 cup mixed vegetables (carrot, peas, capsicum), finely chopped</li>
+        <li>1 tbsp oil</li>
+        <li>1/2 tsp ginger-garlic paste</li>
+        <li>1 green chili, chopped</li>
+        <li>Salt to taste</li>
+        <li>1 tbsp soy sauce</li>
+        <li>1 tbsp spring onion greens, chopped (optional)</li>
+        </ul>
+       </div>
+       <hr>
+       <div class="makbox">
+        <ol>
+          <h2>Making Process :</h2>
+          <li>Heat oil in a pan, add ginger-garlic paste and green chili; sauté for a minute.</li>
+          <li>Add vegetables and stir-fry until tender.</li>
+          <li>Add rice, soy sauce, and salt. Mix well and stir fry for 3-4 minutes.</li>
+          <li>Garnish with spring onions and serve hot.</li>
+        </ol>
+        </div>
+        </div>
+   </div>   
+  </div>
+</div>
+<div class="row1">
+  <div class="container1">  
+       <div class="imgbox">
+        <img class="img3" src="kichidi.avif">
+        <h2>Khichdi & Ghee</h2>
+         <div class="ingmak">
+        <div class="ingbox">
+        <ul class="inglist">
+          <h2>Ingredients :</h2>
+        <li>1/2 cup rice</li>
+        <li>1/4 cup moong dal</li>
+        <li>1/4 tsp turmeric powder</li>
+        <li>Salt to taste</li>
+        <li>1 tbsp ghee</li>
+        <li>Water as needed</li>
+        </ul>
+       </div>
+       <hr>
+       <div class="makbox">
+        <ol>
+           <li>Wash rice and dal. Pressure cook with turmeric, salt, and water (about 3 cups) till soft and mushy (about 3 whistles).</li>
+          <li>Heat ghee and pour over the cooked khichdi before serving.</li>
+          <li>Serve hot with pickle or yogurt.</li>
+        </ol>
+        </div>
+        </div>
+   </div>   
+  </div>
+ 
+    <div class="container1">  
+       <div class="imgbox1">
+        <img class="img4" src="chicken.jpg">
+        <h2>Chicken Curry</h2>
+         <div class="ingmak1">
+        <div class="ingbox">
+        <ul class="inglist">
+          <h2>Ingredients :</h2>
+        <li>150 g chicken pieces</li>
+        <li>1 small onion, chopped</li>
+        <li>1 small tomato, chopped</li>
+        <li>1 tsp ginger-garlic paste</li>
+        <li>1 tbsp oil</li>
+        <li>1/2 tsp turmeric powder</li>
+        <li>1 tsp coriander powder</li>
+        <li>1/2 tsp chili powder</li>
+        <li>1/2 tsp garam masala</li>
+        <li>Salt to taste</li>
+        <li>Fresh coriander for garnish</li>
+        <li>1 cup water</li>
+        </ul>
+       </div>
+       <hr>
+       <div class="makbox">
+        <ol>
+          <h2>Making Process :</h2>
+          <li>Heat oil, sauté onions till golden. Add ginger-garlic paste and cook for 1 min.</li>
+          <li>Add tomatoes, turmeric, coriander, chili powder, and salt. Cook till oil separates.</li>
+          <li>Add chicken and stir well, cook until chicken changes color.</li>
+          <li>Add water, cover, and simmer until chicken is cooked (~20 mins).</li>
+          <li>Add garam masala, mix well, garnish with coriander, and serve hot.</li>
+        </ol>
+        </div>
+        </div>
+   </div>   
+  </div>
+</div>
+</body>
+</html>

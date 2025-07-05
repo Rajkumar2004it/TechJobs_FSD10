@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <style>
+    
+  .ingmak{
+    background-color: yellow;
+    border: 1px solid blue;
+    display: none;
+     width: 500px;
+  }
+   .ingmak1{
+    background-color: yellow;
+    border: 1px solid blue;
+    display: none;
+    width: 500px;
+  }
+  .mainhead{
+  display: flex;
+  justify-content: center;
+}
+.head{
+  display: flex;
+  justify-content: center;
+}
+.head{
+  display: flex;
+  justify-content: center;
+}
+body{
+  background-color:  #fff8e1;
+}
+.imgbox:hover .ingmak{
+  display: block;
+}
+.imgbox1:hover .ingmak1{
+  display: block;
+}
+.row1{
+  display: flex;
+  justify-content: space-around;
+  padding: 25px;
+}
+.img1 , .img2 , .img3, .img4 {
+  width: 500px;
+  height: 370px;
+  border: 3px solid black;
+    border-radius: 15px;
+}
+ .nav-image{
+            display: flex;
+            position: relative;
+            z-index: 1000000;
+            width: 60%;
+            top: -200px;
+            left:730px ;
+            opacity: 90%;
+            
+        }
+        body{
+            overflow-x: hidden;
+            margin:0px;
+            padding:0px;
+        }
+nav{
+  position: sticky;
+  top: 0px;
+}
+nav{
+    background-color: #F5FFFA;
+    display: flex;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    height: 145px;
+    width: 100%;
+}
+.logo{
+    display: flex;
+    position: absolute;
+    width: 9%;
+    top: 2px;
+    left: 45px;
+}
+
+.nav-options-div{
+    display: flex;
+    flex-direction: row;
+    position:absolute;
+    justify-content: center;
+    left: 230px;
+    top:40px;
+    z-index: 10000;
+}
+
+.nav-options{
+    list-style-type: none;
+    display: flex;
+    color:black ;
+    padding: 50px;
+    font-size: 27px;
+}
+
+a{
+    text-decoration: none;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: brown;
+}
+
+a:hover{
+    text-decoration: underline;
+    
+}
+
+.nav-options-fw{
+    display: flex;
+    flex-direction: row;
+    position:absolute;
+    justify-content: center;
+    left: 1220px;
+    top:58px;
+}
+
+.nav-fw{
+    list-style: none;
+    display: flex;
+    padding: 30px;
+    color: brown;
+    font-size: 27px;
+}
+
+.home-page-heading{
+    display: flex;
+    position: absolute;
+    flex-direction: row;
+    z-index: 100;
+    top: 360px;
+    left: 880px;
+    
+}
+  </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+    <nav>
+        <a href="" target="_self"><img class="logo" style="cursor: pointer;" src="logo.jpg"></a>
+        <div class="nav-container">
+            <ul class="nav-options-div">
+                <li class="nav-options"><a href="">RECIPIES <i class="fa-solid fa-bowl-food"></i></a></li>
+                <li class="nav-options"><a href="">FOOD STYLES <i class="fa-solid fa-utensils"></i> </a></li>
+                <li class="nav-options"><a href="">CUISINE <i class="fa-solid fa-globe"></i> </a></li>
+                <li class="nav-options"><a href="">SEASONAL <i class="fa-solid fa-leaf"></i></a></li>
+            </ul>
+            <img class="nav-image" src="logo3.png">
+        </div>
+        
+        <div class="nav-container-2">
+            <ul class="nav-options-fw">
+                <li class="nav-fw"><a href=""><i class="fa-solid fa-magnifying-glass"></i></a></li>
+                <li class="nav-fw"><a href=""><i class="fa-solid fa-bookmark"></i> </a></li>   
+                <li class="nav-fw"><a href=""><i class="fa-solid fa-user"></i></a></li>
+            </ul>
+        </div>
+    </nav>  
+  <div class="top">
+  <h1 class="mainhead">Sips & Sips (Drinks)</h1>
+  <h2 class="head">Drinks, smoothies, shakes & coolers</h2>
+</div>
+  <hr>
+  <div class="row1">
+  
+       <div class="imgbox">
+        <img class="img1" src="mangolassi.jpg">
+        <h2>Mango Lassi</h2>
+         <div class="ingmak">
+        <div class="ingbox">
+        <ul class="inglist">
+          <h2>Ingredients :</h2>
+        <li>1 cup mango pulp</li>
+        <li>1 cup yogurt</li>
+        <li>1/2 cup cold water or milk</li>
+        <li>1 tbsp sugar (optional)</li>
+        <li>A pinch of cardamom powder (optional)</li>
+        </ul>
+       </div>
+       <hr>
+       <div class="makbox">
+        <ol>
+          <h2 class="name">Making Process :</h2>
+        <li>Blend mango pulp, yogurt, water/milk, sugar, and cardamom till smooth.</li>
+        <li>Serve chilled.</li>
+        </ol>
+      
+        </div>
+   </div>   
+  </div>
+ 
+    <div class="container1">  
+       <div class="imgbox1">
+        <img class="img2" src="buttermilk.jpg">
+        <h2>Chaas (Buttermilk)</h2>
+         <div class="ingmak1">
+        <div class="ingbox">
+        <ul class="inglist">
+          <h2>Ingredients :</h2>
+        <li>1 cup yogurt</li>
+        <li>1 1/2 cup cold water</li>
+        <li>1/2 tsp roasted cumin powder</li>
+        <li>1-2 curry leaves (optional)</li>
+        <li>Fresh coriander, chopped (optional)</li>
+        <li>Salt to taste</li>
+        </ul>
+       </div>
+       <hr>
+       <div class="makbox">
+        <ol>
+          <h2>Making Process :</h2>
+          <li>Whisk yogurt with water and salt until frothy.</li>
+          <li>Add cumin powder, curry leaves, and coriander. Mix well.</li>
+          <li>Serve chilled.</li>
+        </ol>
+        </div>
+        </div>
+   </div>   
+  </div>
+</div>
+<div class="row1">
+  <div class="container1">  
+       <div class="imgbox">
+        <img class="img3" src="coldcofee.avif">
+        <h2> Cold Coffee</h2>
+         <div class="ingmak">
+        <div class="ingbox">
+        <ul class="inglist">
+          <h2>Ingredients :</h2>
+        <li>1 cup chilled milk</li>
+        <li>2 tsp instant coffee powder</li>
+        <li>1 tbsp sugar</li>
+        <li>Ice cubes</li>
+        <li>2 tbsp vanilla ice cream (optional)</li>
+        </ul>
+       </div>
+       <hr>
+       <div class="makbox">
+        <ol>
+          <h2>Making Process :</h2>
+         <li>Blend coffee powder, sugar, and a little milk to dissolve.</li>
+         <li>add remaining milk and ice cubes, blend again.</li>
+         <li>Pour in glass, top with ice cream if desired. Serve cold.</li>
+        </ol>
+        </div>
+        </div>
+   </div>   
+  </div>
+ 
+    <div class="container1">  
+       <div class="imgbox1">
+        <img class="img4" src="soda.webp">
+        <h2>Masala Soda</h2>
+         <div class="ingmak1">
+        <div class="ingbox">
+        <ul class="inglist">
+          <h2>Ingredients :</h2>
+        <li>1 cup chilled soda water</li>
+        <li>1 tbsp lemon juice</li>
+        <li>1/4 tsp chaat masala</li>
+        <li>1/4 tsp black salt</li>
+        <li>A pinch of roasted cumin powder</li>
+        <li>Ice cubes</li>
+        <li>Mint leaves for garnish</li>
+        </ul>
+       </div>
+       <hr>
+       <div class="makbox">
+        <ol>
+          <h2>Making Process :</h2>
+        <li>Mix lemon juice, chaat masala, black salt, and cumin powder.</li>
+        <li>Add soda water and ice cubes. Stir gently.</li>
+        <li>Garnish with mint leaves and serve immediately.</li>
+        </ol>
+        </div>
+        </div>
+   </div>   
+  </div>
+</div>
+</body>
+</html>

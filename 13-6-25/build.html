@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="row">
+        <nav class="navbar navbar-expand-md bg-success navbar-light d-flex justify-content-end p-5 ">
+            <div class="nav col-md-8">
+                <a href="" class="navbar-brand"><i class="fa-solid fa-house"></i>BUILDERZ</a>
+            </div>
+            <div class="nav col-md-3">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href=""> Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href=""> About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="">Service</a></li>
+                    <li class="nav-item"><a class="nav-link" href="">Contact </a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+
+            <div class="col-md-12">
+                <div class="carousel slide" id="mycar" data-bs-ride="carousel" data-bs-interval="3000">
+                    <ul class="carousel-indicators">
+                        <li class="active" data-bs-target="#mycar" data-bs-slide-to="0"></li>
+                        <li data-bs-target="#mycar" data-bs-slide-to="1"></li>
+                        <li data-bs-target="#mycar" data-bs-slide-to="2"></li>
+                    </ul>
+
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="https://builderz-interior.web.app/int-img2.png" alt="" class="d-block w-100">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h3>first image</h3>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item">
+                            <img src="https://builderz-interior.web.app/int-img2.png" alt="" class="d-block w-100">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h3>second image</h3>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://builderz-interior.web.app/int-img2.png" alt="" class="d-block w-100">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h3>third image</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" data-bs-target="#mycar" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </button>
+                    <button class="carousel-control-next" data-bs-target="#mycar" data-bs-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <ul class="pagination">
+                <li class="page-item"><a href="" class="page-link">&lt; &lt;</a></li>
+                <li class="page-item">
+                    <a href="" class="page-link">1</a>
+                </li>
+                <li class="page-item">
+                    <a href="" class="page-link">2</a>
+                </li>
+                <li class="page-item">
+                    <a href="" class="page-link">3</a>
+                </li>
+                <li class="page-item">
+                    <a href="" class="page-link">4</a>
+                </li>
+                <li class="page-item">
+                    <a href="" class="page-link">5</a>
+                </li>
+                <li class="page-item"><a href="" class="page-link">&gt; &gt;</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-5">
+                <div class="accordion" id="myacc">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button" data-bs-target="#accone" data-bs-toggle="collapse">Full
+                                stack</button>
+                        </h2>
+                        <div class="collapse accordion-collapse" id="accone" data-bs-parent="#myacc">
+                            <h6>content</h6>
+                            <ul>
+                                <li>Angular</li>
+                                <li>node</li>
+                                <li>express</li>
+                            </ul>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button" data-bs-target="#acctwo" data-bs-toggle="collapse">Full
+                                    stack</button>
+                            </h2>
+                            <div class="collapse accordion-collapse" id="acctwo" data-bs-parent="#myacc">
+                                <h6>content</h6>
+                                <ul>
+                                    <li>Angular</li>
+                                    <li>node</li>
+                                    <li>express</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <ul>
+                    <li class="nav-item"><button class="btn btn-success" data-bs-target="#signinmodal"
+                            data-bs-toggle="modal">signin</button></li>
+                </ul>
+            </div>
+        </div>
+        <div class="modal fade" id="signinmodal">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1>Login now</h1>
+                        <button class="btn-close" data-bs-dismiss="modal"> </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="row d-flex justify-content-center ">
+                            <div class="col-md-5">
+                                <div class="form-group">
+                                    <label for="" class="form-label">username</label>
+                                    <input type="text" class="form-control">
+                                </div>
+                                <div class="form-group">
+                                    <label for="form-label">password</label>
+                                    <input type="password" class="form-control">
+                                </div>
+                                <button class="btn btn-success">submit</button>
+                                <button class="btn btn-danger" data-bs-dismiss="modal">exit</button>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+</body>
+
+</html>

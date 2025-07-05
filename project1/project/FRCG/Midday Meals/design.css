@@ -1,0 +1,64 @@
+
+  .ingmak{
+    background-color: yellow;
+    border: 1px solid blue;
+    display: none;
+     width: 500px;
+  }
+   .ingmak1{
+    background-color: yellow;
+    border: 1px solid blue;
+    display: none;
+    width: 500px;
+  }
+  .mainhead{
+  display: flex;
+  justify-content: center;
+}
+.head{
+  display: flex;
+  justify-content: center;
+}
+.head{
+  display: flex;
+  justify-content: center;
+}
+body{
+  background-color:  #fff8e1;
+}
+.imgbox:hover .ingmak{
+  display: block;
+}
+.imgbox1:hover .ingmak1{
+  display: block;
+}
+.row1{
+  display: flex;
+  justify-content: space-around;
+  padding: 25px;
+}
+.img1 , .img2 , .img3, .img4 {
+  width: 500px;
+  height: 370px;
+  border: 3px solid black;
+    border-radius: 15px;
+}
+ .nav-image{
+            display: flex;
+            position: relative;
+            z-index: 1000000;
+            width: 60%;
+            top: -200px;
+            left:730px ;
+            opacity: 90%;
+            
+        }
+        body{
+            overflow-x: hidden;
+            margin:0px;
+            padding:0px;
+        }
+nav{
+  position: sticky;
+  top: 0px;
+}

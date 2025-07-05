@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="myh1"></h1>
+    <button onclick="start()">start</button>
+    <button onclick="pause()">pause</button>
+    <button onclick="reset()">reset</button>
+
+    <script>
+        var sec=0,mins=0,hrs=0, interval;
+        function hello(){
+            sec++;
+            if(sec==60){
+                sec=0;
+                mins++;
+            }
+            if(mins==60){
+                sec=0,mins=0;
+                hrs++;
+            }
+            if(hrs==24){
+                sec=0,mins=0,hrs=0;
+            }}
+            function start(){
+             document.getElementById("my1").innerHTML=`${hrs.toString().padStart(2,"0")}, ${mins.toString().padStart(2,"0")},${sec.toString().padStart(2,"0")}
+             
+            }
+
+    </script>
+    
+</body>
+</html>
